@@ -1,0 +1,60 @@
+body{
+    background-color: whitesmoke;
+    background-image: url(https://wallpaperaccess.com/full/2078983.jpg);
+}
+h1 {
+    color: black;
+    font-size: 45px;
+    background-color: yellow;
+    width: 350px;
+    transform: translateX(585px);
+    border-radius: 15px;
+    border: solid black 2px;
+    
+}
+
+#b1, #b2, #b3, #b4, #b5, 
+#b6, #b7, #b8, #b9 {
+    width: 100px;
+    height: 80px;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 6px;
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+    color: yellow;
+    background-color: gray;
+}
+#but {
+    box-sizing: border-box;
+    width: 155px;
+    height: 66px;
+    border-radius: 7px;
+    margin: auto;
+    background-color: yellow;
+    color: black;
+    font-size: 19px;
+    cursor: pointer;
+}
+#but:hover{
+    background-color: black;
+    color: whitesmoke;
+    transition: 1s;
+}
+
+#print {
+    color: black;
+    font-size: 20px;
+}
+
+
+#main {
+    text-align: center;
+}
+
+
+#ins {
+    color: red;
+    font-size: 17px;
+}
